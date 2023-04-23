@@ -1,0 +1,38 @@
+.form-box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.form-row-vertical {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.full-row {
+    width: 250px;
+}
+
+.form-row-horizontal {
+    display: flex;
+    gap: 10px;
+}
+
+#status-select {
+    width:125px;
+}
+
+#comment-row {
+    align-items: flex-start;
+}
+
+#submit-button {
+    background-color: white;
+    border-radius: 0;
+    border: 1px solid black;
+    color: black;
+    width: 100px;
+}
